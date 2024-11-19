@@ -6,8 +6,6 @@ import {
   NavbarItem,
   NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
-  Link,
   Select,
   SelectItem,
 } from "@nextui-org/react";
@@ -26,16 +24,15 @@ export function NavbarComponent() {
     { code: "tr", label: "Turkish" },
   ];
 
-  // Fetch the language from localStorage when the component mounts
   useEffect(() => {
-    const storedLanguage = localStorage.getItem(LANGUAGE) || "en"; // Default to "en" if not found
-    setLanguage(storedLanguage); // Set the language from localStorage
+    const storedLanguage = localStorage.getItem(LANGUAGE) || "en";
+    setLanguage(storedLanguage);
   }, []);
 
   const handleLanguageChange = (selectedLanguage) => {
     setLanguage(selectedLanguage);
     localStorage.setItem(LANGUAGE, selectedLanguage);
-    document.location.reload(true); // Optional: Reload to apply language change
+    document.location.reload(true);
   };
 
   return (

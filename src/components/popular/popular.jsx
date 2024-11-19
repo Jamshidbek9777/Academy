@@ -1,7 +1,78 @@
-export const Popular = ()=>{
-    return(
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aperiam, sed sapiente similique nostrum, suscipit illo doloremque facilis perferendis voluptates eius assumenda eligendi, nulla natus inventore veritatis doloribus delectus vel totam eaque! Hic, dicta repellat animi cupiditate totam, consectetur, voluptatem magni sed est iure magnam dolor dignissimos consequuntur alias laboriosam optio placeat? Saepe quasi suscipit ut inventore quis sunt commodi voluptatem officiis quas repudiandae similique fuga perspiciatis quo, illo tempora reprehenderit porro! Totam asperiores doloribus quis quam ea velit rem qui magnam ratione eveniet vero exercitationem modi nemo impedit architecto minima unde dolores voluptate aspernatur odio, commodi optio? Excepturi minima voluptatibus, soluta nisi nulla ducimus quae est quis? Tempore iure deleniti dolorem fugit in laborum placeat, repudiandae ipsa amet voluptatum mollitia veniam odit perspiciatis incidunt neque. Assumenda, aspernatur. Animi reprehenderit explicabo necessitatibus fuga deserunt error corrupti temporibus aperiam incidunt unde libero magni dolor at provident, similique eligendi alias enim aliquam doloremque tempora culpa, possimus laboriosam? Ullam aliquam sit pariatur ratione deleniti esse corporis earum. Sed vitae sequi, doloribus ratione officiis nihil! Consequatur, doloribus maxime! Delectus maiores saepe blanditiis sint, quae laboriosam quaerat dolores minus! Eaque impedit at itaque magni? Sint, magni ad! Iste, nemo! Neque voluptate rem eveniet animi tempore accusantium enim cumque nam molestiae! Delectus, nostrum! Laudantium ut molestias vel nulla aut aliquam deserunt eos eaque cum. Natus dolore quasi mollitia placeat, sequi voluptatibus laboriosam suscipit, eos fuga magnam accusamus ut. Voluptatibus excepturi sapiente corporis ipsa porro odit eaque reprehenderit dolorum veritatis rerum eum cupiditate molestias voluptas, commodi provident. Rerum, quo quibusdam tempora dolores exercitationem repellat. Vel error facere recusandae, deleniti nesciunt molestias, reprehenderit ipsa ut esse alias voluptates sint nostrum, tenetur quas? Tempora voluptatum nesciunt eum atque soluta ab minima consequatur, laborum illum sit sint quibusdam adipisci quaerat error non modi, unde repellat ea praesentium quis cum! Enim ipsa cum facilis eius eum culpa reiciendis distinctio rerum aliquid reprehenderit totam, velit recusandae maiores consequatur laboriosam corrupti quia dolore iste, voluptatibus in nostrum perspiciatis unde tempore. Laborum id nam ab excepturi. Incidunt vel odit, eum et ipsam odio fugit tempore, repellendus deserunt eveniet consequatur. Ut fuga assumenda non modi distinctio beatae, molestiae quibusdam alias fugiat repudiandae tempora neque porro quis sit itaque saepe eius eos, accusamus aut! Consequuntur necessitatibus odit quidem in blanditiis maxime ipsam numquam nostrum enim ipsum vitae qui, ullam voluptate unde fugiat quo ratione non aut officiis nam culpa commodi, quas totam? Quam deserunt cupiditate ratione obcaecati omnis maxime, sequi sunt reiciendis assumenda, nam reprehenderit? Sunt eveniet dignissimos totam deserunt consequuntur laboriosam ad aliquam cumque ipsam labore porro necessitatibus doloremque quis libero, exercitationem nulla, amet voluptatibus error quaerat voluptas vel maiores in corporis at? Dolores commodi, magnam quis magni rerum nihil vitae unde, tempora nesciunt adipisci in ab! Fugit minima ratione nemo molestiae error quam deserunt consequatur perferendis, iusto aliquid quidem earum assumenda sapiente. Non nostrum repudiandae asperiores nisi quasi reprehenderit culpa vero, consectetur quaerat? Voluptates dolor doloribus earum reiciendis ducimus adipisci tempora eius illum dicta, et ut atque in aliquid dolorum nostrum distinctio a eos. Officia accusantium repellat rem corrupti mollitia, fugiat sequi animi magnam illo debitis adipisci illum recusandae accusamus ratione velit veritatis neque porro beatae pariatur reprehenderit dignissimos eaque qui aliquam blanditiis? Ullam voluptate eos quas placeat quia nulla repellendus beatae vero pariatur quo unde fugiat id illo iure quibusdam quisquam temporibus, dolorum at dicta quidem assumenda sapiente ut deleniti. Labore deserunt at illum quis impedit totam, vitae unde sequi eligendi excepturi. Nostrum ea amet dolore. Ducimus at, veritatis saepe in rerum explicabo veniam magni aperiam vero pariatur eius rem cupiditate alias assumenda deleniti quas! Doloremque repudiandae non omnis ut doloribus veritatis delectus. Officiis, placeat porro iste possimus non soluta odit! Maiores adipisci repellendus ex doloribus aliquid? Deleniti quos sunt asperiores nam nostrum necessitatibus fuga, accusamus eius commodi corrupti ipsam. Iusto dolorum quod cum perferendis tempore eius nostrum repellendus saepe iste similique. Ullam, quos odio! Alias molestias, ipsam reprehenderit tempora assumenda tenetur ab numquam corporis nam? Vero reprehenderit ut harum adipisci quis blanditiis distinctio doloremque velit sit enim ullam iusto quos rerum dolores laboriosam a porro, nostrum officiis, in cumque aspernatur nam quas exercitationem cum! Eos veritatis ullam, facilis atque aspernatur harum necessitatibus labore enim voluptatibus porro consequatur consequuntur itaque dicta expedita rem repellendus quis quia cumque corrupti. Distinctio soluta animi nisi natus rerum perspiciatis pariatur temporibus quo, similique veritatis laboriosam possimus minus amet placeat numquam voluptate qui vero mollitia hic saepe. Inventore nam amet debitis suscipit, aperiam cupiditate nulla repellat accusamus, rerum unde illum necessitatibus vero ducimus voluptatem corporis temporibus. Id ducimus quibusdam, cumque non totam architecto sapiente. Odit magni hic veritatis commodi distinctio vitae repellendus atque rerum quam assumenda illum quia nemo necessitatibus accusamus esse eos possimus facere, enim officia nam molestiae, nisi aspernatur minima sit. Quas, porro illo. Officia architecto amet perferendis modi sequi odio hic sed nesciunt explicabo obcaecati. Eaque, omnis eum? Ipsam consectetur corporis nobis dolores non eveniet, perferendis fugit alias, quo cum molestiae. Sunt explicabo sapiente aperiam architecto! Quia nobis accusamus quaerat autem nemo officiis a veniam rerum odio libero! Ab consequatur perspiciatis dignissimos assumenda dicta, maxime ut quam nulla deleniti harum, autem impedit rem commodi? Voluptatem ratione vel eos, culpa, deserunt voluptates unde optio animi praesentium iste accusamus cupiditate sit deleniti tempora itaque? Voluptates, repudiandae tempora neque libero cupiditate inventore porro a ad laborum praesentium temporibus iusto, ducimus necessitatibus quae non. Molestiae eos eum non maiores dicta minima, repellendus rem optio obcaecati ipsum nihil omnis consequuntur soluta incidunt minus, ullam voluptatibus atque tempora. Nemo voluptatibus, necessitatibus iste soluta dicta asperiores vel beatae sed sint dolorem deleniti cum fuga id dolorum quaerat repellat, voluptatem ducimus aliquid aut atque molestias harum accusantium nostrum. Cumque illo aliquid quidem eos repellendus vero quod ipsa blanditiis eum, veritatis corrupti aspernatur laborum dolore cum numquam. Ducimus, dicta. Aliquam provident voluptate iusto similique quis! Pariatur obcaecati nisi, blanditiis soluta voluptatem nihil debitis ex vero, quo corporis praesentium atque repudiandae laboriosam sit repellat. Expedita recusandae necessitatibus, commodi, eveniet eos ut quibusdam sed beatae quae accusantium quas quasi provident? Explicabo ex amet consequuntur illum doloremque.
-        </div>
-    )
-}
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { Autoplay, EffectFade, FreeMode, Pagination } from "swiper/modules";
+import { Button } from "@nextui-org/react";
+
+export const Popular = () => {
+  return (
+    <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl font-semibold text-center text-gray-800 mb-8">
+          Popular
+        </h2>
+        <Swiper
+          style={{
+            height: "300px",
+          }}
+          spaceBetween={20} // Adjusted space between slides for better view on smaller screens
+          freeMode={true}
+          loop={true}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          modules={[FreeMode, Pagination, Autoplay, EffectFade]}
+          breakpoints={{
+            320: {
+              slidesPerView: 2, // For mobile screens, only 2 slides are visible
+            },
+            375: {
+              slidesPerView: 2, // Up to 3 slides on slightly larger mobile screens
+            },
+            480: {
+              slidesPerView: 3, // 4 slides visible on small tablets
+            },
+            768: {
+              slidesPerView: 4, // 5 slides on medium screens like tablets in landscape mode
+            },
+            1024: {
+              slidesPerView: 5, // 6 slides visible on desktop screens
+            },
+          }}
+        >
+          {Array(15)
+            .fill()
+            .map((_, index) => (
+              <SwiperSlide
+                key={index}
+                className="flex justify-center items-center"
+                style={{
+                  borderRadius: "20px",
+                  overflow: "hidden",
+                  width: "auto",
+                  // border: "1px solid grey",
+                  height: "fit-content",
+                }}
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-lg"
+                  src="imgs/teacher.jpg"
+                  alt="Popular item"
+                  style={{
+                    maxWidth: "270px",
+                    height: "220px",
+                    objectFit: "cover",
+                    marginBottom: "10px",
+                  }}
+                />
+                <div className="flex justify-center mt-1 mb-2">
+                  <Button color="primary" style={{ width: "100%" }}>
+                    More
+                  </Button>
+                </div>
+              </SwiperSlide>
+            ))}
+        </Swiper>
+      </div>
+    </div>
+  );
+};

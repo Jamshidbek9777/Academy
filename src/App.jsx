@@ -4,7 +4,7 @@ import { Popular } from "./components";
 export default function App() {
   return (
     <>
-      <Hero />,
+      <Hero />
       <Popular />
     </>
   );
