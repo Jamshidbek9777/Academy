@@ -6,11 +6,11 @@ import { EffectFade, Autoplay } from "swiper/modules";
 
 export const Hero = () => {
   return (
-    <div className="relative h-screen">
+    <div className="relative">
       <div className="opacity-5 absolute inset-0 bg-heroBg bg-cover bg-center -z-10"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd -z-20"></div>
 
-      <div className="relative flex flex-col-reverse lg:flex-row items-center justify-center pt-20 px-4 mx-auto max-w-7xl gap-8 text-center md:text-left">
+      <div className="relative flex flex-col-reverse lg:flex-row items-center justify-center pt-40 pb-20 px-4 mx-auto max-w-7xl gap-8 text-center md:text-left">
         <div className="flex-1">
           <p className="text-3xl">Turkistan Academy</p>
           <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight">

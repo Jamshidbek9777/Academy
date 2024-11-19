@@ -1,11 +1,12 @@
-import { Hero } from "@/components";
-import { Popular } from "./components";
+import { Hero, PopularTeachers, WhyUs, PopularStudents } from "./components";
 
 export default function App() {
   return (
     <>
       <Hero />
-      <Popular />
+      <WhyUs />
+      <PopularTeachers />
+      <PopularStudents />
     </>
   );
 }

@@ -5,12 +5,12 @@ import "swiper/css/pagination";
 import { Autoplay, EffectFade, FreeMode, Pagination } from "swiper/modules";
 import { Button } from "@nextui-org/react";
 
-export const Popular = () => {
+export const PopularTeachers = () => {
   return (
     <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-semibold text-center text-gray-800 mb-8">
-          Popular
+          Popular teachers
         </h2>
         <Swiper
           style={{
@@ -46,10 +46,9 @@ export const Popular = () => {
                 key={index}
                 className="flex justify-center items-center"
                 style={{
-                  borderRadius: "20px",
+                  borderRadius: "",
                   overflow: "hidden",
                   width: "auto",
-                  // border: "1px solid grey",
                   height: "fit-content",
                 }}
               >
@@ -62,6 +61,7 @@ export const Popular = () => {
                     height: "220px",
                     objectFit: "cover",
                     marginBottom: "10px",
+                    borderRadius: "50%",
                   }}
                 />
                 <div className="flex justify-center mt-1 mb-2">
