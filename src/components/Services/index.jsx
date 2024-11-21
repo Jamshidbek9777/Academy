@@ -3,21 +3,18 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, EffectFade, FreeMode, Pagination } from "swiper/modules";
-import { popularTeachers } from "../../database/popularTeachers";
+import { Button } from "@nextui-org/react";
+import { services } from "../../database/services";
 import { useNavigate } from "react-router-dom";
 
-export const PopularTeachers = () => {
+export const PopularServices = () => {
   const navigate = useNavigate();
-
-  const handleCardClick = (id) => {
-    navigate(`/teachers/${id}`);
-  };
 
   return (
     <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-semibold text-center text-gray-800 mb-8">
-          Popular teachers
+          Our services
         </h2>
         <Swiper
           style={{
@@ -29,44 +26,50 @@ export const PopularTeachers = () => {
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           modules={[FreeMode, Pagination, Autoplay, EffectFade]}
           breakpoints={{
-            320: { slidesPerView: 2 },
-            375: { slidesPerView: 2 },
-            480: { slidesPerView: 3 },
-            768: { slidesPerView: 4 },
-            1024: { slidesPerView: 5 },
+            320: {
+              slidesPerView: 2,
+            },
+            375: {
+              slidesPerView: 2,
+            },
+            480: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 4,
+            },
+            1024: {
+              slidesPerView: 5,
+            },
           }}
         >
-          {popularTeachers.map((teacher) => (
+          {services.map((service) => (
             <SwiperSlide
-              key={teacher.id}
-              className="flex flex-col items-center"
-              onClick={() => handleCardClick(teacher.id)}
+              key={service.id}
+              className="flex justify-center items-center cursor-pointer"
+              onClick={() => navigate(`/service/${service.id}`)}
               style={{
+                borderRadius: "",
                 overflow: "hidden",
                 width: "auto",
                 height: "fit-content",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 5px",
-                borderRadius: "25px",
-                cursor: "pointer",
               }}
             >
               <img
-                className="w-full object-cover rounded-full shadow-lg"
-                src={teacher.pic}
-                alt={`${teacher.name} - ${teacher.type}`}
+                className="w-full h-full object-cover rounded-xl shadow-lg"
+                src={service.image || "/imgs/service.png"}
+                alt={service.type}
                 style={{
                   maxWidth: "270px",
                   height: "220px",
                   objectFit: "cover",
                   marginBottom: "10px",
-                  borderRadius: "50%",
                 }}
               />
-              <div className="px-3 text-center">
-                <h3 className="text-lg font-semibold mt-2">{teacher.name}</h3>
-                <p className="text-sm text-gray-600">
-                  {teacher.type} Teacher • {teacher.exp} years exp
-                </p>
+              <div className="flex justify-center mt-1 mb-2">
+                <Button color="primary" style={{ width: "100%" }}>
+                  {service.type}
+                </Button>
               </div>
             </SwiperSlide>
           ))}

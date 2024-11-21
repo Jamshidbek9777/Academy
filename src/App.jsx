@@ -1,12 +1,19 @@
-import { Hero, PopularTeachers, WhyUs, PopularStudents } from "./components";
+import {
+  Hero,
+  PopularServices,
+  WhyUs,
+  PopularTeachers,
+  GetInTouch,
+} from "./components";
 
 export default function App() {
   return (
     <>
       <Hero />
-      <WhyUs />
       <PopularTeachers />
-      <PopularStudents />
+      <PopularServices />
+      <WhyUs />
+      <GetInTouch />
     </>
   );
 }
