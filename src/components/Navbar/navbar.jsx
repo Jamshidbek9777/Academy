@@ -39,15 +39,16 @@ export function NavbarComponent() {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="xl"
-      // isBordered={true}
       shouldHideOnScroll={true}
       className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd"
       height="5rem"
-      style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.08)" }}
+      style={{
+        boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.08)",
+      }}
     >
       <NavbarContent className="flex justify-between w-full">
         <NavbarBrand onClick={() => navigate("/")}>
-          <p className="font-bold text-inherit">Academy</p>
+          <p className="font-bold text-inherit cursor-pointer">Academy</p>
         </NavbarBrand>
 
         <NavbarMenuToggle
@@ -123,8 +124,8 @@ export function NavbarComponent() {
         </NavbarItem>
         <NavbarItem className="cursor-pointer">
           <Select
-            // value={language}
-            // aria-label="Language Selection"
+            value={language}
+            aria-label="Language Selection"
             // onChange={(e) => handleLanguageChange(e.target.value)}
             style={{ width: "100px" }}
             defaultSelectedKeys={["uz"]}

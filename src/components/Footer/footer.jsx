@@ -9,7 +9,7 @@ export const Footer = () => {
           alignItems: "center",
         }}
       >
-        <div className="flex justify-between max-w-7xl mx-auto items-center w-full">
+        <div className="flex justify-between max-w-7xl mx-auto items-center w-full px-6">
           <div>
             <p className="text-white">Turkistan academy</p>
           </div>
