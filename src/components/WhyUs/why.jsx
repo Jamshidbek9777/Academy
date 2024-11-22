@@ -16,7 +16,7 @@ export const WhyUs = () => {
 
         {/* Content Section */}
         <div className="flex-1">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5">
+          <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold mb-2">
             Why choose us
           </h1>
           <p className="text-sm md:text-base lg:text-lg leading-relaxed">
@@ -26,7 +26,7 @@ export const WhyUs = () => {
           </p>
 
           {/* Cards Section */}
-          <div className="mt-8 space-y-4">
+          <div className="mt-4 space-y-2">
             <Card className="border rounded-lg shadow-md">
               <CardBody>
                 <div className="flex items-center gap-4">

@@ -11,9 +11,9 @@ export const PopularServices = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16">
+    <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-semibold text-center text-gray-800 mb-8">
+        <h2 className="text-4xl font-semibold text-gray-800 mb-8 pt-3">
           Our services
         </h2>
         <Swiper

@@ -1,7 +1,9 @@
+import { GetInTouch } from "../../components";
+
 export const Teachers = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16 min-h-[828px]">
+      <div className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd py-16 ">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-2">
             Öğretmen Eğitim Seminerleri
@@ -43,6 +45,7 @@ export const Teachers = () => {
           </div> */}
         </div>
       </div>
+      <GetInTouch />
     </>
   );
 };

@@ -6,33 +6,31 @@ import {
   NavbarItem,
   NavbarMenuToggle,
   NavbarMenu,
-  Select,
-  SelectItem,
 } from "@nextui-org/react";
-import { LANGUAGE } from "../../tools/contants";
 import { useNavigate } from "react-router-dom";
-
+import { LANGUAGE } from "../../tools/contants";
+import { getText } from "../../locales";
 export function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [language, setLanguage] = useState("en");
   const navigate = useNavigate();
-  const menuItems = ["About us", "Students", "Family", "Teachers"];
   const languageOptions = [
     { code: "uz", label: "Uzbek" },
     { code: "en", label: "English" },
-    { code: "ru", label: "Russian" },
     { code: "tr", label: "Turkish" },
   ];
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem(LANGUAGE) || "en";
     setLanguage(storedLanguage);
+    document.documentElement.lang = storedLanguage;
   }, []);
 
-  const handleLanguageChange = (selectedLanguage) => {
+  const handleLanguageChange = (event) => {
+    const selectedLanguage = event.target.value;
     setLanguage(selectedLanguage);
     localStorage.setItem(LANGUAGE, selectedLanguage);
-    document.location.reload(true);
+    document.documentElement.lang = selectedLanguage;
   };
 
   return (
@@ -42,13 +40,11 @@ export function NavbarComponent() {
       shouldHideOnScroll={true}
       className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd"
       height="5rem"
-      style={{
-        boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.08)",
-      }}
+      style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.08)" }}
     >
       <NavbarContent className="flex justify-between w-full">
         <NavbarBrand onClick={() => navigate("/")}>
-          <p className="font-bold text-inherit cursor-pointer">Academy</p>
+          <p className="font-bold text-inherit cursor-pointer">AcademyX</p>
         </NavbarBrand>
 
         <NavbarMenuToggle
@@ -62,97 +58,80 @@ export function NavbarComponent() {
           className="cursor-pointer"
           onClick={() => navigate("/about")}
         >
-          About us
+          {getText("navItem1")}
         </NavbarItem>
         <NavbarItem
           className="cursor-pointer"
           onClick={() => navigate("/students")}
         >
-          For students
+          {getText("navItem2")}
         </NavbarItem>
         <NavbarItem
           className="cursor-pointer"
           onClick={() => navigate("/family")}
         >
-          For family
+          {getText("navItem3")}
         </NavbarItem>
         <NavbarItem
           className="cursor-pointer"
           onClick={() => navigate("/teachers")}
         >
-          For teacher
+          {getText("navItem4")}
         </NavbarItem>
-        <NavbarItem className="cursor-pointer">
-          <Select
-            // value={language}
-            // aria-label="Language Selection"
-            // onChange={(e) => handleLanguageChange(e.target.value)}
-            style={{ width: "100px" }}
-            defaultSelectedKeys={["uz"]}
+
+        <NavbarItem>
+          <select
+            value={language}
+            onChange={handleLanguageChange}
+            className="p-2 border rounded bg-white"
           >
             {languageOptions.map((lang) => (
-              <SelectItem key={lang.code}>{lang.label}</SelectItem>
+              <option key={lang.code} value={lang.code}>
+                {lang.label}
+              </option>
             ))}
-          </Select>
+          </select>
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu className="text-center flex flex-col p-6">
         <NavbarItem
-          className="cursor-pointer"
+          className="cursor-pointer pb-3 text-xl"
           onClick={() => navigate("/about")}
         >
-          About us
+          {getText("navItem1")}
         </NavbarItem>
         <NavbarItem
-          className="cursor-pointer"
+          className="cursor-pointer pb-3 text-xl"
           onClick={() => navigate("/students")}
         >
-          For students
+          {getText("navItem2")}
         </NavbarItem>
         <NavbarItem
-          className="cursor-pointer"
+          className="cursor-pointer pb-3 text-xl"
           onClick={() => navigate("/family")}
         >
-          For family
+          {getText("navItem3")}
         </NavbarItem>
         <NavbarItem
-          className="cursor-pointer"
+          className="cursor-pointer pb-3 text-xl"
           onClick={() => navigate("/teachers")}
         >
-          For teacher
+          {getText("navItem4")}
         </NavbarItem>
-        <NavbarItem className="cursor-pointer">
-          <Select
+        <NavbarItem>
+          <select
             value={language}
-            aria-label="Language Selection"
-            // onChange={(e) => handleLanguageChange(e.target.value)}
-            style={{ width: "100px" }}
-            defaultSelectedKeys={["uz"]}
+            onChange={handleLanguageChange}
+            className="p-2 border rounded bg-white outline-none"
           >
             {languageOptions.map((lang) => (
-              <SelectItem key={lang.code}>{lang.label}</SelectItem>
+              <option key={lang.code} value={lang.code}>
+                {lang.label}
+              </option>
             ))}
-          </Select>
+          </select>
         </NavbarItem>
-        {/* {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
-              className="w-full"
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))} */}
       </NavbarMenu>
     </Navbar>
   );

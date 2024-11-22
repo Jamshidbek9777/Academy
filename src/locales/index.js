@@ -1,6 +1,7 @@
 import { uz } from "./UZ";
 import { en } from "./EN";
 import { tr } from "./TR";
+import { LANGUAGE } from "../tools/contants";
 
 // export const flagImages = {
 //   uz: "/img/uzb.png",
