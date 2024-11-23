@@ -11,12 +11,14 @@ import { Teachers } from "./pages/index.js";
 import TeacherDetail from "./pages/teacherDetail/tDetail.jsx";
 import ServiceDetail from "./pages/servicesDetail/sDetail.jsx";
 import { Services } from "./pages/Services/index.jsx";
+import ScrollToTop from "./components/scroll.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <NextUIProvider>
     <BrowserRouter>
+      <ScrollToTop />
       <NavbarComponent />
       <Routes>
         <Route path="/" exact element={<App />} />

@@ -1,7 +1,7 @@
 export const popularTeachers = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -24,7 +24,7 @@ export const popularTeachers = [
   },
   {
     id: 2,
-    name: "John Doe",
+    name: "Teacher",
     type: "German",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -47,7 +47,7 @@ export const popularTeachers = [
   },
   {
     id: 3,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -70,7 +70,7 @@ export const popularTeachers = [
   },
   {
     id: 4,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -93,7 +93,7 @@ export const popularTeachers = [
   },
   {
     id: 5,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -116,7 +116,7 @@ export const popularTeachers = [
   },
   {
     id: 6,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -139,7 +139,7 @@ export const popularTeachers = [
   },
   {
     id: 7,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -162,7 +162,7 @@ export const popularTeachers = [
   },
   {
     id: 8,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -185,7 +185,7 @@ export const popularTeachers = [
   },
   {
     id: 9,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -208,7 +208,7 @@ export const popularTeachers = [
   },
   {
     id: 10,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -231,7 +231,7 @@ export const popularTeachers = [
   },
   {
     id: 11,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",
@@ -254,7 +254,7 @@ export const popularTeachers = [
   },
   {
     id: 12,
-    name: "John Doe",
+    name: "Teacher",
     type: "English",
     exp: 5,
     bio: "John is a highly skilled English teacher with a passion for helping students excel in their language skills. His teaching style is interactive and focused on real-world applications.",

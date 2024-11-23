@@ -45,7 +45,7 @@ export const PopularTeachers = () => {
                 overflow: "hidden",
                 width: "auto",
                 height: "fit-content",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 5px",
+                // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 5px",
                 borderRadius: "25px",
                 cursor: "pointer",
               }}
@@ -64,9 +64,9 @@ export const PopularTeachers = () => {
               />
               <div className="px-3 text-center">
                 <h3 className="text-lg font-semibold mt-2">{teacher.name}</h3>
-                <p className="text-sm text-gray-600">
+                {/* <p className="text-sm text-gray-600">
                   {teacher.type} Teacher • {teacher.exp} years exp
-                </p>
+                </p> */}
               </div>
             </SwiperSlide>
           ))}

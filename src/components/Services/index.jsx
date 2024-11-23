@@ -64,12 +64,11 @@ export const PopularServices = () => {
                   height: "220px",
                   objectFit: "cover",
                   marginBottom: "10px",
+                  borderRadius: "50%",
                 }}
               />
-              <div className="flex justify-center mt-1 mb-2">
-                <Button color="primary" style={{ width: "100%" }}>
-                  {service.type}
-                </Button>
+              <div className="px-3 text-center">
+                <h3 className="text-lg font-semibold mt-2">{service.type}</h3>
               </div>
             </SwiperSlide>
           ))}

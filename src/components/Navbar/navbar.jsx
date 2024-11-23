@@ -37,7 +37,7 @@ export function NavbarComponent() {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="xl"
-      shouldHideOnScroll={true}
+      // shouldHideOnScroll={true}
       className="bg-gradient-to-r from-gradientStart via-[#D4F7F3] to-gradientEnd"
       height="5rem"
       style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.08)" }}

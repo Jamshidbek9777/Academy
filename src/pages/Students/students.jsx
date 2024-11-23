@@ -1,4 +1,11 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { Autoplay, EffectFade, FreeMode, Pagination } from "swiper/modules";
+
 import { GetInTouch } from "../../components";
+import { languages } from "../../database/languages";
 
 export const Students = () => {
   return (
@@ -39,6 +46,64 @@ export const Students = () => {
               seviyesinden ileri seviyeye kadar dil eğitimi hem de sınav
               hazırlık programları.
             </p>
+          </div>
+          <div className="mt-8">
+            <h1 className="text-4xl font-bold">The list of languages</h1>
+            <Swiper
+              style={{
+                height: "300px",
+                marginTop: "50px",
+              }}
+              spaceBetween={20}
+              freeMode={true}
+              loop={true}
+              autoplay={{ delay: 2500, disableOnInteraction: false }}
+              modules={[FreeMode, Pagination, Autoplay, EffectFade]}
+              breakpoints={{
+                320: { slidesPerView: 2 },
+                375: { slidesPerView: 2 },
+                480: { slidesPerView: 3 },
+                768: { slidesPerView: 4 },
+                1024: { slidesPerView: 5 },
+              }}
+            >
+              {languages.map((language) => (
+                <SwiperSlide
+                  key={language.id}
+                  className="flex flex-col items-center"
+                  onClick={() => handleCardClick(language.id)}
+                  style={{
+                    overflow: "hidden",
+                    width: "auto",
+                    height: "fit-content",
+                    // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 5px",
+                    borderRadius: "25px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <img
+                    className="w-full object-cover rounded-full shadow-lg"
+                    src={language.img}
+                    alt={""}
+                    style={{
+                      maxWidth: "270px",
+                      height: "220px",
+                      objectFit: "cover",
+                      marginBottom: "10px",
+                      borderRadius: "50%",
+                    }}
+                  />
+                  <div className="px-3 text-center">
+                    <h3 className="text-lg font-semibold mt-2">
+                      {language.name}
+                    </h3>
+                    {/* <p className="text-sm text-gray-600">
+                  {teacher.type} Teacher • {teacher.exp} years exp
+                  </p> */}
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>
