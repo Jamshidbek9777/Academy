@@ -65,7 +65,6 @@ export const Teachers = () => {
                     overflow: "hidden",
                     width: "auto",
                     height: "fit-content",
-                    // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 5px",
                     borderRadius: "25px",
                     cursor: "pointer",
                   }}
